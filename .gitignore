@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local and sensitive data
+.env
+*.csv
+*.pcap
+*.pcapng
+*.zip
+*.7z
+*.parquet
+*.feather
+*.joblib
+*.pkl
+*.pickle
+data/*
+!data/README.md
+
+# Generated model/report artifacts
+models/*
+!models/README.md
+artifacts/*
+!artifacts/README.md
+
+# Streamlit
+.streamlit/secrets.toml
